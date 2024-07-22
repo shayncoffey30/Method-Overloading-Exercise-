@@ -2,6 +2,16 @@
 {
     public class Program
     {
+        static void Main(string[] args)
+        {
+            Console.WriteLine(Add(5, 9));
+            Console.WriteLine(Add(4m, 3m));
+            Console.WriteLine(Add(4, 8, true));
+
+
+
+
+        }    
         public static int Add(int num1, int num2)
         {
             return num1 + num2;
@@ -40,7 +50,7 @@
             return response;
         }
 
-        static void Main(string[] args)
+        static void main(string[] args)
         {
            Console.WriteLine(Add(0, 1, true));
 
